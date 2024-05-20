@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
 
-    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <spam class="header__menu-hamburguer container__imagem"></spam>
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <spam class="header__menu-hamburguer container__imagem"></spam>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+            </ul>
             <img src="./assets/icons/Logo.svg" alt="Logo Alura Books" class="container__imagem">
         </div>
         <div class="container">

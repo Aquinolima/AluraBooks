@@ -9,7 +9,7 @@
     --color-primary: #002F52;
     --color-secondary: #C4C4C4;
     --color-tertiary: #EB9B00 ;
-    --color-gradient: #326589;
+    --color-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --color-black: #000000;
     --color-white: #FFFFFF;
 
@@ -19,4 +19,7 @@
 
 body {
     background-color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
 }
