@@ -1,3 +1,4 @@
+/* Inicio da versão Mobile */
 .header__menu-hamburguer{
     background-image: url(../assets/icons/Menu.svg);
     width: 24px;
@@ -56,3 +57,12 @@
 .container__botao{
     display: none;
 }
+
+/* Fim da versão Mobile */
+/* Inicio da versão Tablet 1024PX */
+
+@media screen and(min-width: 1024px) {}
+
+
+
+/* Fim da versão Tablet 1024PX */
