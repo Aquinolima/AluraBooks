@@ -7,7 +7,7 @@
 }
 
 .descricao{
-    padding-right: 2em;
+    padding: 2em 0 ;
 }
 
 .card__descricao{
@@ -19,11 +19,13 @@
 .descricao__titulo{
     color: var(--color-tertiary);
     font-weight: 700;
+    padding-top: 0.5em;
 }
 
 .descricao__titulo-livro{
     color: var(--color-primary);
     font-weight: 700;
+
     font-size: 18px;
     margin: 0.5em 0;
 }
@@ -41,7 +43,7 @@
 }
 
 .botoes__item{
-    margin: 0 0.5em;
+    margin: 0 .7em;
 }
 
 .botoes__ancora{
