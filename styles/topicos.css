@@ -1,26 +1,26 @@
-.tópicos {
+.topicos {
     background: var(--color-gradient);
     text-align: center;
     padding: 1em 0;
 }
 
-.tópicos__titulo {
+.topicos__titulo {
     color: var(--color-white);
     font-weight: 300;
     margin-bottom: 1em;
 }
 
-.tópicos__lista {
+.topicos__lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.tópicos__item {
+.topicos__item {
     margin: 2em 0.5em;
 }
 
-.tópicos__link {
+.topicos__link {
     color: var(--color-white);
     padding: 1em;
     background-color: var(--color-tertiary);

@@ -6,10 +6,6 @@
     padding: 1em;
 }
 
-.descricao{
-    padding: 2em 0 ;
-}
-
 .card__descricao{
     display: flex;
     justify-content: space-between;
