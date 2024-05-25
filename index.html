@@ -42,10 +42,10 @@
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
         <div class="swiper">
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper" data-swiper-autoplay="200" >
+            <div class="swiper-wrapper" data-swiper-autoplay="200">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="assets/img/ApacheKafka.svg" alt="Livro Apache Kafka" srcset="">
                 </div>
@@ -67,6 +67,25 @@
             <div class="swiper-scrollbar"></div>
         </div>
     </section>
+
+    <div class="card">
+        <div class="card__descricao">
+            <div class="descricao">
+                <h3 class="descricao__titulo">Talvez você também se interesse po ...</h3>
+                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <img src="assets/img/Angular.svg" alt="Imagem Logo Angular">
+        </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
+                <li class="botoes__item"><img src="assets/icons/Compras.svg" alt="Comprar livro"></li>
+            </ul>
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+    </div>
+
     <main></main>
     <footer></footer>
 
@@ -74,14 +93,14 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView:3,
+            slidesPerView: 3,
 
-            pagination:{
-                el:'.swiper-pagination',
+            pagination: {
+                el: '.swiper-pagination',
                 type: 'bullets',
             },
 
-            autoplay:{
+            autoplay: {
                 delay: 2000,
 
             }
