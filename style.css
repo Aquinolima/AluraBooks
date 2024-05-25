@@ -1,6 +1,7 @@
 @import url('./styles/reset.css');
 @import url('./styles/header.css');
 @import url('./styles/banner.css');
+@import url('./styles/carrossel.css');
 
 
 
@@ -19,7 +20,7 @@
 }
 
 body {
-    background-color: var(--color-secondary);
+    background-color: var(--color-white);
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
