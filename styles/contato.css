@@ -1,3 +1,4 @@
+/* Inicio da versão Mobile */
 .contato{
     background-color: var(--color-white);
     padding: 1em;
@@ -38,4 +39,34 @@
     padding-left: 3em;
 }
 
+/* Fim da versão Mobile */
+/* Inicio da versão Tablet 1024PX */
 
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .contato__descricao{
+        margin-right: 1em ;
+        width: 30%;
+        padding-top: 1em;
+    }
+
+        .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__texto{
+        font-size: 18px;
+    }
+
+    .contato__email{
+        width: 30%;
+    }
+
+}
+
+/* Fim da versão Tablet 1024PX */
