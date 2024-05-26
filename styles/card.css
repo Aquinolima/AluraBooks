@@ -57,8 +57,12 @@
 
 @media screen and (min-width: 1024px) {
  
+.card{
+    width: 40%;
+    margin: 2em auto;
+   
+}
 
-    
  }
  
  /* Fim da versão Tablet 1024PX */
