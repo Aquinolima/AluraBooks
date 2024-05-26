@@ -1,3 +1,4 @@
+/* Inicio da versão Mobile */
 .topicos {
     background: var(--color-gradient);
     text-align: center;
@@ -28,3 +29,20 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+/* Fim da versão Mobile */
+/* Inicio da versão Tablet 1024PX */
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 20px;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+}
+
+/* Fim da versão Tablet 1024PX */
