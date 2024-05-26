@@ -33,5 +33,5 @@ body {
 }
 input:focus-visible {
     outline: none;
-    border: 2px solid var(--color-tertiary);
+    border: 1px solid var(--color-tertiary);
   }

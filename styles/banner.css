@@ -1,3 +1,4 @@
+/* Inicio da versão Mobile */
 .banner{
     background: var(--color-gradient);
     color: var(--color-white);
@@ -35,3 +36,23 @@
     background-position: center;
     background-position-x: 1em;
 }
+
+/* Fim da versão Mobile */
+/* Inicio da versão Tablet 1024PX */
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+    .banner__pesquisa{
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 7em;
+    }
+
+}
+
+/* Fim da versão Tablet 1024PX */
