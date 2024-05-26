@@ -1,3 +1,4 @@
+/* Inicio da versão Mobile */
 hr {
     margin: 0;
     color: var(--color-primary);
@@ -12,3 +13,48 @@ hr {
 .rodape__titulo{
     color: var(--color-primary);
 }
+
+.lista-rodape {
+    display: none;
+}
+/* Fim da versão Mobile */
+/* Inicio da versão Tablet 1024PX */
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+}
+
+.lista-rodape__item {
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape__link {
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+}
+
+.lista-rodape__item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+}
+
+.lista-rodape__titulo {
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+
+.rodape__titulo {
+    font-size: 24px;
+}
+
+.lista-rodape {
+    display: block;
+}
+
+}
+/* Fim da versão Tablet 1024PX */
