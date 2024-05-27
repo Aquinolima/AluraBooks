@@ -70,3 +70,12 @@
 }
 
 /* Fim da versão Tablet 1024PX */
+/* Inicio da versão Desktop 1728PX */
+
+@media screen and (min-width: 1728px) {
+    .contato{
+        padding: 3em 20vW;
+    }
+
+    }
+    /* Fim da versão Desktop 1728PX */
