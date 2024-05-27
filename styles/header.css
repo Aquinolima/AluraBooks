@@ -67,6 +67,11 @@
     display: none;
 }
 
+
+.container__texto{
+    display: none;
+}
+
 /* Fim da versão Mobile */
 /* Inicio da versão Tablet 1024PX */
 
@@ -112,6 +117,11 @@
     .container__imagem-icon-hide{
         display: none;
     }
+
+    .container__texto{
+        display: none;
+    }
+
 }
 
 
@@ -119,6 +129,27 @@
 /* Fim da versão Tablet 1024PX */
 /* Inicio da versão Desktop 1728PX */
 
+@media screen and (min-width: 1728px) {
 
 
+.header{
+    padding: 0 2em;
+}
+
+.opcoes{
+    margin-right: auto;
+}
+
+.container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.container__texto {
+    display: block;
+}
+
+}
 /* Fim da versão Desktop 1728PX */
