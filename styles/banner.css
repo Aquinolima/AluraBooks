@@ -34,7 +34,7 @@
     background: url("../assets/icons/Lupa.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-position-x: 1em;
+    background-position-x: 5%;
 }
 
 /* Fim da versão Mobile */
@@ -50,7 +50,7 @@
     }
 
     .banner__pesquisa::placeholder{
-        background-position: 7em;
+        background-position: 10%;
     }
 
 }
@@ -69,7 +69,7 @@
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 12em;
+        background-position: 10%;
 }
    
     
