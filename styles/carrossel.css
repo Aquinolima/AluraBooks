@@ -1,10 +1,10 @@
 /* Inicio da versão Mobile */
 .carrossel {
-    background-color: var(--color-white);
+    background-color: var(--color-secondary);
 }
 .carrossel__titulo{
     color: var(--color-tertiary);
-  
+    background-color: var(--color-white);
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
@@ -48,3 +48,24 @@
 }
 
 /* Fim da versão Tablet 1024PX */
+/* Inicio da versão Desktop 1728PX */
+
+@media screen and (min-width: 1728px) {
+    .carrossel-card__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+
+
+    
+    }
+    /* Fim da versão Desktop 1728PX */

@@ -67,6 +67,7 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <div class="carrossel-card__container">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -100,17 +101,16 @@
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
-    </section>
-
-    <div class="card">
-        <div class="card__descricao">
-            <div class="descricao">
-                <h3 class="descricao__titulo">Talvez você também se interesse por ...</h3>
-                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por ...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descric ao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="assets/img/cards/Angular.svg" alt="Imagem Logo Angular">
             </div>
-            <img src="assets/img/cards/Angular.svg" alt="Imagem Logo Angular">
-        </div>
         <div class="card__botoes">
             <ul class="botoes">
                 <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
@@ -118,10 +118,12 @@
             </ul>
             <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
-    </div>
-
+    </div></div>
+</section>
+    
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel-card__container">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -155,27 +157,28 @@
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
-    </section>
-
-    <div class="card">
-        <div class="card__descricao">
-            <div class="descricao">
-                <img src="assets/icons/Estrelinhas.svg" alt="Estrelinhas">
-                <h3 class="descricao__titulo">Autora do Mês</h3>
-                <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+        
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="assets/icons/Estrelinhas.svg" alt="Estrelinhas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="assets/img/cards/Escritora.svg" alt="Imagem Escritora">
             </div>
-            <img src="assets/img/cards/Escritora.svg" alt="Imagem Escritora">
-        </div>
-        <div class="card__botoes">
-            <ul class="botoes">
-                <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
-                <li class="botoes__item"><img src="assets/icons/Compras.svg" alt="Comprar livro"></li>
-            </ul>
-            <a href="#" class="botoes__ancora">Saiba mais</a>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="assets/icons/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="assets/icons/Compras.svg" alt="Comprar livro"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
         </div>
     </div>
-
+    </section>
+        
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
