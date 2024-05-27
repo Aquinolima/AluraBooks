@@ -58,3 +58,17 @@ hr {
 
 }
 /* Fim da versão Tablet 1024PX */
+/* Inicio da versão Desktop 1728PX */
+
+@media screen and (min-width: 1728px) {
+   .lista-rodape{
+    border-left: 1px solid var(--color-secondary);
+    padding-left: 1em;
+   }
+
+   .rodape{
+    padding: 3em 0;
+   }
+
+    }
+    /* Fim da versão Desktop 1728PX */
