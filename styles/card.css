@@ -1,26 +1,28 @@
-
 /* Inicio da versão Mobile */
-.card{
-    background-color:rgb(249, 249, 249);
+.card__container{
+    padding: 2em;
+}
+.card {
+    background-color: rgb(249, 249, 249);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: 1em;
+   
     padding: 1em;
 }
 
-.card__descricao{
+.card__descricao {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
 
-.descricao__titulo{
+.descricao__titulo {
     color: var(--color-tertiary);
     font-weight: 700;
     padding-top: 0.5em;
 }
 
-.descricao__titulo-livro{
+.descricao__titulo-livro {
     color: var(--color-primary);
     font-weight: 700;
 
@@ -28,23 +30,24 @@
     margin: 0.5em 0;
 }
 
-.descricao__texto{
+.descricao__texto {
     font-size: 14px;
 }
 
-.card__botoes{
+.card__botoes {
     display: flex;
     justify-content: space-between;
 }
-.botoes{
+
+.botoes {
     display: flex;
 }
 
-.botoes__item{
+.botoes__item {
     margin: 0 .7em;
 }
 
-.botoes__ancora{
+.botoes__ancora {
     background-color: var(--color-tertiary);
     padding: 1em 2.2em;
     color: var(--color-white);
@@ -56,13 +59,36 @@
 /* Inicio da versão Tablet 1024PX */
 
 @media screen and (min-width: 1024px) {
- 
-.card{
-    width: 40%;
-    margin: 2em auto;
-   
+
+    .card {
+        width: 40%;
+        margin: auto;
+
+    }
+
 }
 
- }
- 
- /* Fim da versão Tablet 1024PX */
+/* Inicio da versão Desktop 1728PX */
+
+@media screen and (min-width: 1728px) {
+
+    .card {
+        width: 120%;
+        margin-left: 3em;
+    }
+
+    .descricao{
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+}
+
+/* Fim da versão Desktop 1728PX */
