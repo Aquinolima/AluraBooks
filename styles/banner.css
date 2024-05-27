@@ -56,3 +56,22 @@
 }
 
 /* Fim da versão Tablet 1024PX */
+/* Inicio da versão Desktop 1728PX */
+
+@media screen and (min-width: 1728px) {
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 12em;
+}
+   
+    
+    }
+    /* Fim da versão Desktop 1728PX */
